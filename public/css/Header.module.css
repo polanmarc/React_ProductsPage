@@ -1,0 +1,47 @@
+.header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.header ul {
+  list-style-type: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.header li {
+  margin: 0px 20px 0px 5px;
+}
+.header li:last-child {
+  margin: 0px 0px 0px 5px;
+}
+.header input[type=search] {
+  width: 100px;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.active {
+  background-color: green !important;
+}/*# sourceMappingURL=Header.module.css.map */
